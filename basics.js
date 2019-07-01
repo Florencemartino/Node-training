@@ -12,3 +12,13 @@ function logGreet(fn) {
   fn()
 };
 logGreet(greet);
+
+// function expression
+
+let greetMe = function() {
+  console.log('hello !')
+};
+
+greetMe();
+
+logGreet(greetMe);
