@@ -18,7 +18,11 @@ logGreet(greet);
 let greetMe = function() {
   console.log('hello !')
 };
-
 greetMe();
 
 logGreet(greetMe);
+
+// use a function expression on the fly
+logGreet(function() {
+  console.log('Hello world !')
+});
