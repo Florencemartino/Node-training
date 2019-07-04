@@ -1,3 +1,4 @@
-let hello = require('./greet');
+let greet = require('./greet');
 
-hello();
+greet.english();
+greet.spanish();
