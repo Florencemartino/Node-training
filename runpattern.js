@@ -3,8 +3,8 @@ let greet1 = require('./greet1');
 greet1();
 
 // pattern 2
-let greet2 = require('./greet2').greet;
-greet2();
+let greet2 = require('./greet2');
+greet2.greet();
 
 // pattern 3
 let greet3 = require('./greet3');
